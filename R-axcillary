@@ -1,0 +1,5 @@
+a<-airquality
+a
+new<-lm(a$Ozone~a$Wind)
+new
+summary(new
